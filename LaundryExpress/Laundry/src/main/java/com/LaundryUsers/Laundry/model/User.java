@@ -25,5 +25,6 @@ public class User {
     private LocalDateTime lastLogin;
     private String status;
 
-    // Additional methods (e.g., constructors) if needed
+    @OneToOne(mappedBy = "user")
+    private Profile profile;
 }

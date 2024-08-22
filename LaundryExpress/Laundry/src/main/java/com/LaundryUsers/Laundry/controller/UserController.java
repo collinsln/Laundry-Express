@@ -23,6 +23,5 @@ public class UserController {
         return ResponseEntity.ok(newUser);
     }
 
-    // Additional endpoints for updating, deleting, etc.
 }
 
